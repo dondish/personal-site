@@ -1,24 +1,24 @@
 <template>
-  <div class="flex flex-col relative h-screen bg-teal-500 md:p-16 z-50 justify-center">
-      <div class="shadow-lg text-center md:text-left container block md:grid md:grid-cols-4 bg-teal-700 md:rounded pt-12 md:pt-8 p-8 gap-3 h-screen md:h-auto">
-          <div class="flex md:flex-col justify-center md:grid-cell md:col-span-1">
-              <div class="md:flex-1"></div>
+  <div class="flex flex-col relative h-screen bg-teal-500 lg:p-16 z-50 justify-center">
+      <div class="lg:shadow-lg text-center lg:text-left w-full lg:container block lg:grid lg:grid-cols-4 bg-teal-700 lg:rounded pt-12 lg:pt-8 p-8 gap-3 h-screen lg:h-auto">
+          <div class="flex lg:flex-col justify-center lg:grid-cell lg:col-span-1">
+              <div class="lg:flex-1"></div>
               <div class="flex justify-center">
                 <img class="h-48 w-48" :src="logo">
               </div>
-              <div class="md:flex-1"></div>
+              <div class="lg:flex-1"></div>
           </div>
-          <div class="justify-center md:justify-none md:col-span-3">
-              <h1 class="md:inline align-baseline mt-2 md:my-2 text-white text-2xl md:text-5xl">Oded Shapira</h1>
-              <span class="md:inline mb-6 md:ml-2 align-baseline text-xl md:text-3xl text-gray-500">Also known as Dondish</span>
-              <h2 class="text-white mb-8 text-l md:text-3xl">{{scribbledText}}</h2>
+          <div class="justify-center lg:justify-none lg:col-span-3">
+              <h1 class="lg:inline align-baseline mt-2 lg:my-2 text-white text-2xl lg:text-5xl">Oded Shapira</h1>
+              <span class="lg:inline mb-6 lg:ml-2 align-baseline text-xl lg:text-3xl text-gray-500">Also known as Dondish</span>
+              <h2 class="text-white mb-8 text-l lg:text-3xl">{{scribbledText}}</h2>
               <p class="mb-4 text-white font-mono text-justify">Hello and welcome to my site!<br>I am Oded, known online as Dondish, and I like coding, music and playing video games!</p>
-              <div id="buttonList" class="grid grid-cols-2 gap-3 md:block">
-                <a v-for="button of buttons" :key="button.icon" :title="button.name" class="grid-col-span-1 md:inline-block border border-teal-900 md:mr-5 hover:text-gray-500 py-2 px-4 bg-teal-800 rounded text-white" :href="button.link"><i class="fa-w-16 fa-2x" :class="(button.style ? button.style : 'fab') + ' fa-'+button.icon"></i></a>
+              <div id="buttonList" class="grid grid-cols-2 gap-3 lg:block">
+                <a v-for="button of buttons" :key="button.icon" :title="button.name" class="grid-col-span-1 lg:inline-block border border-teal-900 lg:mr-5 hover:text-gray-500 py-2 px-4 bg-teal-800 rounded text-white" :href="button.link"><i class="fa-w-16 fa-2x" :class="(button.style ? button.style : 'fab') + ' fa-'+button.icon"></i></a>
               </div>
           </div>
       </div>
-      <div class="absolute h-10 md:h-16 inset-x-0 bottom-0 text-center text-white animate-bounce">
+      <div class="absolute h-10 lg:h-16 inset-x-0 bottom-0 text-center text-white animate-bounce">
         <i class="fa-w-16 fa-2x fas fa-chevron-down"></i>
       </div>
   </div>
