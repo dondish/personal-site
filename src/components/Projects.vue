@@ -1,6 +1,6 @@
 <template>
   <div id="projects" class="pt-20 md:pt-8 text-center">
-    <h1 class="text-4xl font-bold">Projects</h1>
+    <h1 class="text-4xl mb-8 font-bold">Projects</h1>
     <div v-for="(project, idx) in projects" :key="idx" class="text-left mx-8 mb-8">
       <h2 class="block md:inline-block text-xl font-bold">{{project.title}}<span title="Inactive" class="ml-2" v-if="!project.active">✝</span></h2>
       <h3 class="block md:inline-block text-lg md:ml-2 text-gray-700">{{project.secondary}}</h3>

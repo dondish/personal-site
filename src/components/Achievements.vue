@@ -1,6 +1,6 @@
 <template>
   <div id="achievements" class="pt-20 md:pt-8 text-center">
-    <h1 class="text-4xl font-bold">Achievements</h1>
+    <h1 class="text-4xl mb-8 font-bold">Achievements</h1>
     <div class="text-left mx-8 mb-8" v-for="achievement of achievements" :key="achievement.title">
         <h2 class="texl-l md:text-xl font-bold">{{achievement.title}}</h2>
         <ul class="list-disc list-inside">
