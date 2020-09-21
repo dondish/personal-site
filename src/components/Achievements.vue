@@ -22,7 +22,7 @@ export default {
         },
         {
           title: 'Certifications',
-          listItems: ['Machine Learning – Stanford University - Coursera', 'Neural Networks and Deep Learning – Deeplearning.ai - Coursera']
+          listItems: ['Machine Learning – Stanford University - Coursera', 'Neural Networks and Deep Learning – Deeplearning.ai - Coursera', 'Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization - Deeplearning.ai - Coursera', 'Structuring Machine Learning Projects - Deeplearning.ai - Coursera', 'Convolutional Neural Networks - Deeplearning.ai - Coursera']
         },
         {
           title: 'Competitions',
