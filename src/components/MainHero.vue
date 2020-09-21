@@ -10,7 +10,7 @@
           </div>
           <div class="justify-center lg:justify-none lg:col-span-3">
               <h1 class="lg:inline align-baseline mt-2 lg:my-2 text-white text-2xl lg:text-5xl">Oded Shapira</h1>
-              <span class="lg:inline mb-6 lg:ml-2 align-baseline text-xl lg:text-3xl text-gray-500">Also known as Dondish</span>
+              <span class="lg:inline mb-6 lg:ml-2 align-baseline text-xl lg:text-3xl text-gray-400">Also known as Dondish</span>
               <h2 class="text-white mb-8 text-l lg:text-3xl">{{scribbledText}}</h2>
               <p class="mb-4 text-white font-mono text-justify">Hello and welcome to my site!<br>I am Oded, known online as Dondish, and I like coding, music and playing video games!</p>
               <div id="buttonList" class="grid grid-cols-2 gap-3 lg:block">
