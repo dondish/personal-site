@@ -1,7 +1,7 @@
 <template>
   <div id="projects" class="pt-20 md:pt-8 text-center">
     <h1 class="text-4xl font-bold">Projects</h1>
-    <div v-for="(project, idx) in projects" :key="idx" class="text-left ml-8 mb-8">
+    <div v-for="(project, idx) in projects" :key="idx" class="text-left mx-8 mb-8">
       <h2 class="block md:inline-block text-xl font-bold">{{project.title}}<span title="Inactive" class="ml-2" v-if="!project.active">✝</span></h2>
       <h3 class="block md:inline-block text-lg md:ml-2 text-gray-600">{{project.secondary}}</h3>
       <ul class="list-disc list-inside">
@@ -12,17 +12,11 @@
           <span class="font-light">Role: {{project.role}}</span>
         </li>
         <li v-if="project.previousTechnologies">
-          <span class="font-light">Previous Technologies:
-            <span v-for="technology in project.previousTechnologies" :key="technology">
-              <i v-if="technology.startsWith('devicon')" :class="technology"></i><span v-else>{{technology}}</span>
-            </span>
+          <span class="font-light">Previous Technologies:<Technology v-for="technology in project.previousTechnologies" :key="technology" :technology="technology" />
           </span>
         </li>
         <li v-if="project.technologies">
-          <span class="font-light">Technologies:
-            <span v-for="technology in project.technologies" class="mr-2" :key="technology">
-              <i v-if="technology.startsWith('devicon')" :class="technology"></i><span v-else>{{technology}}</span>
-            </span>
+          <span class="font-light">Technologies:<Technology v-for="technology in project.technologies" :key="technology" :technology="technology" />
           </span>
         </li>
         <li v-if="project.additionalSkills">
@@ -43,8 +37,13 @@
 </template>
 
 <script>
+import Technology from './Technology'
+
 export default {
   name: 'Projects',
+  components: {
+    Technology
+  },
   data () {
     return {
       projects: [

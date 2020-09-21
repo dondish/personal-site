@@ -4,12 +4,8 @@
     <Navbar :elements="elements"/>
     <div class="relative min-h-screen md:left-64 md:fix-width">
       <Projects />
-      <div id="skills" class="pt-20 md:pt-8 ml-4 text-center">
-        <h1 class="text-4xl font-bold">Skills</h1>
-      </div>
-      <div id="achievements" class="pt-20 md:pt-8 ml-4 text-center">
-        <h1 class="text-4xl font-bold">Achievements</h1>
-      </div>
+      <Skills />
+      <Achievements />
     </div>
   </div>
 </template>
@@ -18,13 +14,17 @@
 import MainHero from './components/MainHero.vue'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Achievements from './components/Achievements'
 
 export default {
   name: 'App',
   components: {
     MainHero,
     Navbar,
-    Projects
+    Projects,
+    Skills,
+    Achievements
   },
   data () {
     return {

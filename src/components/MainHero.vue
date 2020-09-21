@@ -1,8 +1,12 @@
 <template>
   <div class="flex flex-col relative h-screen bg-teal-500 md:p-16 z-50 justify-center">
       <div class="shadow-lg text-center md:text-left container block md:grid md:grid-cols-4 bg-teal-700 md:rounded pt-12 md:pt-8 p-8 gap-3 h-screen md:h-auto">
-          <div class="flex justify-center md:grid-cell md:col-span-1">
-              <img class="h-48 w-48" :src="logo">
+          <div class="flex md:flex-col justify-center md:grid-cell md:col-span-1">
+              <div class="md:flex-1"></div>
+              <div class="flex justify-center">
+                <img class="h-48 w-48" :src="logo">
+              </div>
+              <div class="md:flex-1"></div>
           </div>
           <div class="justify-center md:justify-none md:col-span-3">
               <h1 class="md:inline align-baseline mt-2 md:my-2 text-white text-2xl md:text-5xl">Oded Shapira</h1>
