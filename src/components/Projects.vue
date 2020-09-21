@@ -58,6 +58,14 @@ export default {
           website: 'https://nino.augu.dev'
         },
         {
+          title: 'Bamba in the Magic Kingdom',
+          secondary: 'Backend',
+          active: true,
+          role: 'Backend-Development, Databases',
+          technologies: ['devicon-python-plain', 'devicon-postgresql-plain', 'devicon-github-plain'],
+          website: 'https://magic-kingdom.live'
+        },
+        {
           title: 'StaffBot',
           secondary: 'Full Stack',
           role: 'Web-Development and Discord Bot Development, Sysadmin, Databases, DevOps',
