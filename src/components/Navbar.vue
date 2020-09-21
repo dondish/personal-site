@@ -3,10 +3,10 @@
     <div class="flex flex-row justify-center">
       <div class="md:hidden ml-4 w-8"></div>
       <div class="md:hidden flex-1"></div>
-      <img class="ml-2 md:ml-0 h-16 w-16 md:h-32 md:w-32" :src="logo">
+      <img class="ml-2 md:ml-0 h-16 w-16 md:h-32 md:w-32" alt="Dondish" :src="logo">
       <div class="md:hidden flex-1"></div>
       <div class="md:hidden self-center mr-4">
-        <button class="px-3 py-2 rounded text-center text-white" @click="toggleNav()"><i class="fa-w-8 fas fa-bars"></i></button>
+        <button class="px-3 py-2 rounded text-center text-white" @click="toggleNav()" aria-label="Navigation Button"><i class="fa-w-8 fas fa-bars"></i></button>
       </div>
     </div>
     <div class="flex-col h-full" :class="toggledNav ? 'flex' : 'hidden md:flex'">

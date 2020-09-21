@@ -23,10 +23,10 @@
           <span class="font-light">Additional Skills: {{project.additionalSkills}}</span>
         </li>
         <li v-if="project.website">
-          <span class="font-light">Website: <a class="underline" :href="project.website" target="_blank">Click Here</a></span>
+          <span class="font-light"><a class="underline" :href="project.website" target="_blank" rel="noopener">Website</a></span>
         </li>
         <li v-if="project.source">
-          <span class="font-light">Source Code: <a class="underline" :href="project.source" target="_blank">Click Here</a></span>
+          <span class="font-light"><a class="underline" :href="project.source" target="_blank" rel="noopener">Source Code</a></span>
         </li>
         <li v-else>
           <span class="font-light">Closed Source</span>

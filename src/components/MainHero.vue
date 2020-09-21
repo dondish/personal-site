@@ -4,7 +4,7 @@
           <div class="flex lg:flex-col justify-center lg:grid-cell lg:col-span-1">
               <div class="lg:flex-1"></div>
               <div class="flex justify-center">
-                <img class="h-48 w-48" :src="logo">
+                <img class="h-48 w-48" alt="Dondish" :src="logo">
               </div>
               <div class="lg:flex-1"></div>
           </div>
