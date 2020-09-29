@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col relative h-screen bg-teal-500 lg:p-16 z-50 justify-center">
-      <div class="lg:shadow-lg text-center lg:text-left w-full lg:container block lg:grid lg:grid-cols-4 bg-teal-700 lg:rounded pt-12 lg:pt-8 p-8 gap-3 h-screen lg:h-auto">
+      <div class="lg:shadow-lg text-center lg:text-left w-full lg:container block lg:grid lg:grid-cols-4 bg-teal-700 lg:rounded pt-12 lg:pt-8 p-8 gap-3 h-screen lg:h-auto lg:mx-auto">
           <div class="flex lg:flex-col justify-center lg:grid-cell lg:col-span-1">
               <div class="lg:flex-1"></div>
               <div class="flex justify-center">
