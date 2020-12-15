@@ -27,7 +27,7 @@ export default {
   props: ['elements'],
   data () {
     return {
-      logo: 'https://avatars0.githubusercontent.com/u/32619328?s=460&u=388d8c809ad57be94e7d7c96d497ca56a1a7d345&v=4',
+      logo: '/oded.png',
       toggledNav: false
     }
   },
